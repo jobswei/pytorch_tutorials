@@ -5,7 +5,7 @@
 
 
 # Learn the Basics
-[http url](https://pytorch.org/tutorials/beginner/basics/intro.html)
+[Learn the Basics](https://pytorch.org/tutorials/beginner/basics/intro.html): 自动求导机制，计算图简介
 
 * 自动微分机制：https://pytorch.org/docs/stable/notes/autograd.html
 * Functions母函数: https://pytorch.org/docs/stable/generated/torch.autograd.Function.backward.html#torch.autograd.Function.backward
@@ -14,10 +14,11 @@
 * torch.fx: 捕获修改计算图
 
 # Deploying PyTorch Models in Production
-* [depoly with flask](https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html#)
+* [ONNX 简介与部署](): 还没学
+* [depoly with flask](https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html#): 借助flask进行web部署
     * 生产环境部署flask: https://flask.palletsprojects.com/en/stable/tutorial/deploy/
     * UI: https://github.com/avinassh/pytorch-flask-api-heroku
-* [Introduction to TorchScript](https://pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html)
-* [Loading a TorchScript Model in C++](https://pytorch.org/tutorials/advanced/cpp_export.html)
+* [Introduction to TorchScript](https://pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html): TorchScript简介
+* [Loading a TorchScript Model in C++](https://pytorch.org/tutorials/advanced/cpp_export.html): C++导入TorchScript Model，编译，运行推理
 
 

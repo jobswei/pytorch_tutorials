@@ -1,0 +1,22 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略特定文件
+secret.txt
+
+# 忽略目录
+build/
+dist/
+
+# 忽略所有的 .class 文件
+*.class
+
+# 忽略所有的临时文件
+*.tmp
+
+# 忽略所有的 .DS_Store 文件（macOS）
+.DS_Store
+__pycache__/
+*.pt
+*.pth
+libtorch/
