@@ -21,4 +21,10 @@
 * [Introduction to TorchScript](https://pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html): TorchScript简介
 * [Loading a TorchScript Model in C++](https://pytorch.org/tutorials/advanced/cpp_export.html): C++导入TorchScript Model，编译，运行推理
 
+# Profiling PyTorch
+* [profiler 的应用](https://pytorch.org/tutorials/beginner/profiler.html)
+    * torch.profiler: https://pytorch.org/docs/main/profiler.html
+    * torch profiler recipes: https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html
+    * Profiler API : https://pytorch.org/docs/stable/autograd.html?highlight=profiler#profiler
+* [HolisticTraceAnalysis使用](https://pytorch.org/tutorials/beginner/hta_intro_tutorial.html): 分析cuda在训练时的空闲时间，内核占用等
 
