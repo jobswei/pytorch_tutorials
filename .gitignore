@@ -20,3 +20,4 @@ __pycache__/
 *.pt
 *.pth
 libtorch/
+work_dirs/

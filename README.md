@@ -16,6 +16,7 @@
 * torch.autograd.grad: https://pytorch.org/cppdocs/api/function_namespacetorch_1_1autograd_1ab9fa15dc09a8891c26525fb61d33401a.html
 * torch.autograd.backward: https://pytorch.org/cppdocs/api/function_namespacetorch_1_1autograd_1a1403bf65b1f4f8c8506a9e6e5312d030.html
 * 看看每一个基础模块中的forward和backward函数
+* torch.autograd.register_autograd和torch.autograd.Function
 
 # Deploying PyTorch Models in Production
 * [ONNX 简介与部署](): 还没学
@@ -52,3 +53,26 @@
 * [Dynamic Parallelism in TorchScript](https://pytorch.org/tutorials/advanced/torch-script-parallelism.html): 使用torch.jit.fork使计算并行加速
 * [Autograd in C++ Frontend](https://pytorch.org/tutorials/advanced/cpp_autograd.html)
     * C++ tensor API :https://pytorch.org/cppdocs/api/classat_1_1_tensor.html
+
+
+
+# Extending PyTorch
+
+* [Custom Python Operator](https://pytorch.org/tutorials/advanced/python_custom_ops.html): 自定义python运算符，以及backward方法 
+    * torch library: https://pytorch.org/docs/stable/library.html
+    * 自定义运算符手册: https://pytorch.org/tutorials/advanced/custom_ops_landing_page.html#the-custom-operators-manual
+    * FakeTensor的用途
+    * 一般模块的backward实现方法
+* [Custom C++ and CUDA Operators](https://pytorch.org/tutorials/advanced/cpp_custom_ops.html): `没学会`: 自定义C++和CUDA算子
+    * cpp_extension: https://pytorch.org/docs/stable/cpp_extension.html，https://pytorch.org/docs/stable/cpp_extension.html#torch.utils.cpp_extension.CUDAExtension
+    * 自定义extension_cpp举例：https://github.com/pytorch/extension-cpp/tree/38ec45e3d8f908b22a9d462f776cf80fc9ab921a
+* [Double Backward with Custom Functions](https://pytorch.org/tutorials/intermediate/custom_function_double_backward_tutorial.html): 自定义函数的双重backward
+* [Fusing Convolution and Batch Norm using Custom Function
+](https://pytorch.org/tutorials/intermediate/custom_function_conv_bn_tutorial.html): 自定义算子举例：融合卷积和batchnorm
+
+* Custom C++ and CUDA Extensions
+* Extending TorchScript with Custom C++ Operators
+* Extending TorchScript with Custom C++ Classes
+* Registering a Dispatched Operator in C++
+* Extending dispatcher for a new backend in C++
+* Facilitating New Backend Integration by PrivateUse1
