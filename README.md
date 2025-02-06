@@ -76,3 +76,11 @@
 * Registering a Dispatched Operator in C++
 * Extending dispatcher for a new backend in C++
 * Facilitating New Backend Integration by PrivateUse1
+
+# Parallel and Distributed Training
+
+* [Getting Started with Distributed Data Parallel](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
+    * torch.nn.parallel.DistributedDataParallel 文档：https://pytorch.org/docs/main/generated/torch.nn.parallel.DistributedDataParallel.html
+    * DDP example: https://pytorch.org/docs/main/notes/ddp.html
+    * init_process_group: https://pytorch.org/docs/stable/distributed.html#torch.distributed.init_process_group
+* [Writing Distributed Applications with PyTorch](https://pytorch.org/tutorials/intermediate/dist_tuto.html)
