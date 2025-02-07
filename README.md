@@ -84,3 +84,6 @@
     * DDP example: https://pytorch.org/docs/main/notes/ddp.html
     * init_process_group: https://pytorch.org/docs/stable/distributed.html#torch.distributed.init_process_group
 * [Writing Distributed Applications with PyTorch](https://pytorch.org/tutorials/intermediate/dist_tuto.html)
+* [Getting Started with Fully Sharded Data Parallel(FSDP)](https://pytorch.org/tutorials/intermediate/FSDP_tutorial.html)
+    * github教学：https://github.com/pytorch/tutorials/blob/main/intermediate_source/FSDP_tutorial.rst
+* [Advanced Model Training with Fully Sharded Data Parallel (FSDP)](https://pytorch.org/tutorials/intermediate/FSDP_advanced_tutorial.html): FSDP微调H5举例
